@@ -1,0 +1,36 @@
+.btn:not([type='submit'],[data-bs-toggle="dropdown"]){
+	background-image: linear-gradient(to right,#00ff00,#00ff00) !important;
+}
+.btn[type=submit]{
+	color : #00ff00;
+}
+h1 {
+	width: 100px;
+	height: 100px;
+	background-color: #4CAF50;
+	border-radius: 50%;
+	margin: 50px auto;
+	animation: colorRotateScale 2s infinite;
+}
+@keyframes colorstyle {
+	0% {
+		background-color: #4CAF50; 
+		transform: rotate(0deg) scale(1); 
+	}
+	25% {
+		background-color: #F44336; 
+		transform: rotate(90deg) scale(1.1); 
+	}
+	50% {
+		background-color: #0F9D58; 
+		transform: rotate(180deg) scale(1); 
+	}
+	75% {
+		background-color: #00BCD4; 
+		transform: rotate(270deg) scale(1.1); 
+	}
+	100% {
+		background-color: #4CAF50; 
+		transform: rotate(360deg) scale(1); 
+	}
+}
